@@ -41,9 +41,12 @@ header {
 option {
   width: 100px;
 }
-input {
-  width: 120px;
-  font-size: 60px;
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  padding-left: 20px;
 }
 select {
   font-size: 15px;

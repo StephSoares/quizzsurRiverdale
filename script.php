@@ -2,7 +2,7 @@
 
 $compteur = 0;
 echo "<div class='reponses'>";
-if ($_GET['question1'] == 3) {
+if ($_GET['q1'] == 3) {
   echo'<p>Question 1 : Votre réponse est correcte.</p>';
   $compteur= $compteur+5;
 
@@ -11,7 +11,7 @@ else
 {
   echo'<p>Question 1 : Votre réponse est erronée. Testez à nouveau.</p>';
 }
-if ($_GET['question2'] == 3) {
+if ($_GET['q2'] == 3) {
   echo'<p>Question 2 : Votre réponse est correcte.</p>';
   $compteur= $compteur+5;
 
@@ -20,7 +20,7 @@ else
 {
   echo'<p>Question 2 : Votre réponse est erronée. Testez à nouveau.</p>';
 }
-if ($_GET['question3'] == 2) {
+if ($_GET['q3'] == 2) {
   echo'<p>Question 3 : Votre réponse est correcte.</p>';
   $compteur= $compteur+5;
 }
@@ -28,7 +28,7 @@ else
 {
   echo'<p>Question 3 : Votre réponse est erronée. Testez à nouveau.</p>';
 }
-if ($_GET['question4'] == 2) {
+if ($_GET['q4'] == 2) {
   echo'<p>Question 4 : Votre réponse est correcte.</p>';
   $compteur= $compteur+5;
 }
@@ -37,7 +37,7 @@ else
   echo'<p>Question 4 : Votre réponse est erronée. Testez à nouveau.</p>';
 }
 
-if ($_GET['question5'] == 3) {
+if ($_GET['q5'] == 3) {
   echo'<p>Question 5 : Votre réponse est correcte.</p>';
   $compteur= $compteur+5;
 }
@@ -45,7 +45,7 @@ else
 {
   echo'<p>Question 5 : Votre réponse est erronée. Testez à nouveau.</p>';
 }
-if ($_GET['question6'] == 3) {
+if ($_GET['q6'] == 3) {
   echo'<p>Question 6 : Votre réponse est correcte.</p>';
   $compteur= $compteur+5;
 }
