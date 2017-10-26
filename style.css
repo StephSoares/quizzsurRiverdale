@@ -48,3 +48,15 @@ input {
 select {
   font-size: 15px;
 }
+@media (max-width: 800px) {
+  .logo{
+    width: 380px;
+  }
+
+}
+@media (max-width: 800px) {
+  .titre{
+    font-size: 20px;
+  }
+
+}
